@@ -1,0 +1,27 @@
+{
+  "name": "Gerenciamento",
+  "version": "1.0.0",
+  "description": "Sistemas de gerenciamento de mecanica",
+  "main": "index.js",
+  "author": "Valdeir da Silva Neto",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js --exec babel-node",
+    "build": "babel index.js -d dist"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "firebase": "^5.4.2",
+    "morgan": "^1.9.1",
+    "mysql2": "^1.6.1",
+    "sequelize": "^4.38.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-2": "^6.24.1",
+    "nodemon": "^1.18.4"
+  }
+}
